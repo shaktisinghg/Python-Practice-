@@ -10,3 +10,4 @@ args = parser.parse_args()
 with open(args.filename, 'r') as f:
     lines = f.readlines()
     print(len(lines))
+
