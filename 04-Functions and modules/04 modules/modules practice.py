@@ -75,6 +75,29 @@
 # print(a.json())
 
 
+# Types of Scope in Python
+
+# x = 10 # global variable
+
+# def my_func():
+#     x = 5  # local variable
+#     print(x)
+
+# print(x)
+# my_func()
+
+
+# x = 10 # global variable
+
+# def modify_global():
+#     global x
+#     x = 5  # local variable
+      
+
+# modify_global()
+# print(x)
+
+
 
 # def increment():
 #     counter = 0
@@ -87,6 +110,31 @@
 # increment()
 # increment()
 
+
+# counter = 0
+# def increment():
+#     global counter
+#     counter += 1
+#     print(counter)
+
+# increment()
+# increment()
+# increment()
+# increment()
+# increment()
+
+
+
+
+# def increment(counter):
+#     counter += 1
+#     return counter
+
+
+# count = 0
+# for _ in range(5):
+#     count = increment(count)
+#     print(count)
 
 
 
@@ -103,9 +151,10 @@
 #     '''
 #     return a * b
 
-# # print(multiply.__doc__)
+# print(multiply.__doc__)
 
 # help(multiply)
+
 
 
 
